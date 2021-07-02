@@ -1,12 +1,12 @@
 const puppeteer = require("puppeteer");
 let usernames = require("./donor");
-let usernamesneed = require("./need");
+let usernamesneed = require("./needy");
 let tab;
 
 (async function () {
   let browser = await puppeteer.launch({
-    executablePath:
-      "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+    // executablePath:
+    //   "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
     headless: false,
     defaultViewport: null,
     args: ["--start-maximized"],
@@ -15,7 +15,7 @@ let tab;
   tab = pages[0];
   let j = 0;
   await tab.goto(
-    "file:///C:/Users/Hp/Desktop/pep_pp_2021/module1/hackathonpepcoding/ht.html"
+    "file:///D:\Amity-University-Technothon1.0\coviCure_Automation\diplay.html"
   );
   await tab.waitForTimeout(2000);
   let allTweetsContent = await tab.$$("#donor tr th");

@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
 let usernames = require("./donor");
-let usernamesneed = require("./need");
+let usernamesneed = require("./needy");
 const id = "@ShivamSinghMah7";
 const pw = "trijal123";
 let message = "";
@@ -68,7 +68,7 @@ let tab;
       await console.log("Message Delivered To " + usernamesneed[i].user_id);
     } catch {
       await console.log(
-        " Message NOT Delivered To " + usernamesneed[i].user_id
+        "Message NOT Delivered To " + usernamesneed[i].user_id
       );
       await tab.keyboard.down("Control");
       await tab.keyboard.press("A");

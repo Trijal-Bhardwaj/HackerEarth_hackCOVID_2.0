@@ -11,7 +11,7 @@ let tab;
   let pages = await browser.pages();
   tab = pages[0];
   await tab.goto(
-    "https://twitter.com/search?q=%23covid%20%23donor%20&src=typed_query&f=live"
+    "https://twitter.com/search?q=%23covid%20%23need&src=typed_query&f=live"
   );
   await tab.keyboard.press("End");
   await tab.waitForTimeout(2000);
@@ -34,7 +34,7 @@ let tab;
     allPendingPromises.push(pendingPromise);
   }
   let data = await Promise.all(allPendingPromises);
-  let jsonData1 = JSON.parse(fs.readFileSync("./donor.json"));
+  let jsonData1 = JSON.parse(fs.readFileSync("./needy.json"));
 
   for (let i = 0; i < data.length; i++) {
     let obj = {
@@ -42,6 +42,6 @@ let tab;
     };
     jsonData1.push(obj);
   }
-  fs.writeFileSync("./donor.json", JSON.stringify(jsonData1));
+  fs.writeFileSync("./needy.json", JSON.stringify(jsonData1));
   await tab.close();
 })();
