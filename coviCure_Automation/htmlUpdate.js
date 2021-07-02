@@ -15,7 +15,7 @@ let tab;
   tab = pages[0];
   let j = 0;
   await tab.goto(
-    "file:///D:\Amity-University-Technothon1.0\coviCure_Automation\diplay.html"
+    "file:///D:/Amity-University-Technothon1.0/coviCure_Automation/diplay.html"
   );
   await tab.waitForTimeout(2000);
   let allTweetsContent = await tab.$$("#donor tr th");
@@ -25,7 +25,7 @@ let tab;
       await allTweetsContent[i].click();
       await tab.type("th", usernames[i].user_id);
     } catch {
-      console.log("finished");
+      console.log("Finished");
       break;
     }
   }
@@ -39,7 +39,7 @@ let tab;
         usernames[Math.floor(Math.random() * 49 + 1)].user_id
       );
     } catch {
-      console.log("finished");
+      console.log("Finished");
       break;
     }
   }
@@ -49,7 +49,7 @@ let tab;
       await allTweetsContent2[i].click();
       await tab.type("th", usernamesneed[i].user_id);
     } catch {
-      console.log("finished");
+      console.log("Finished");
       break;
     }
   }

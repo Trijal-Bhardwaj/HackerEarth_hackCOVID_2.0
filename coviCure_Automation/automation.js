@@ -112,7 +112,7 @@ async function search(uid) {
       ); // Input Box
       await tab.type(
         ".public-DraftStyleDefault-block.public-DraftStyleDefault-ltr",
-        "We are from team CoviCure if you are willing to donate or in need of Covid Equipment then do join our app for assistance" +
+        "Hi, We are from Team CoviCure. If You are Willing to Donate or are in Need of Covid Resources, then do Join our Covicure App for Covid Help & Assistance" +
           message
       );
       await tab.waitForTimeout(10000); // Messgage
