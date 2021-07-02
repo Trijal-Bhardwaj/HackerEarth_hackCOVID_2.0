@@ -1,6 +1,6 @@
 # CoviCure Real-Time Chat Application
 
-### [Site is Live At](https://60df10a4c5f3c1dcbcb16a8a--covicure-chat-application.netlify.app/)
+### [Site is Live](https://60df10a4c5f3c1dcbcb16a8a--covicure-chat-application.netlify.app/)
 
 * Name of the Team : Team Galactus
 
@@ -50,7 +50,7 @@ https://docs.google.com/presentation/d/1d3MucTDWLTPeOp9L25mnyVE_nBvDekIjZvipGuIv
 ## Demo Video:
 ![Demo Video](https://github.com/Trijal-Bhardwaj/covicure_chat_application/blob/master/CoviCureProjectDemo.gif)
 
-* Project is live At:<br/> 
+* Project is Live At:<br/> 
 https://60df10a4c5f3c1dcbcb16a8a--covicure-chat-application.netlify.app/<br/> 
 
 * Step-By-Step Procedure to Run this Project on Your Local Machine :<br/> 
