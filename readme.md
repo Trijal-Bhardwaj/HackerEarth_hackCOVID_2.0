@@ -64,11 +64,79 @@ https://60df10a4c5f3c1dcbcb16a8a--covicure-chat-application.netlify.app/<br/>
                     Run automation.js File. It will Automate Twitter and will Tweet an Automated Message from Our Personal Twitter Account to Evey Donor and Needy Person, containing the Hosted Link of our CoviCure Real-Time Chat Application.<br/> 
                     Run htmlUpdate.js File. It will Display a List of All the Donor and Needy People Twitter UserIDs. It will also show the Tweet Delivery Status for Each Person.<br/> Through our Real-Time Chat Application Link, the user can join and connect with each other from our Real-Time Chat Application, where there is a Helping Community to assist you regarding any emergency requirements related to Covid Resources.<br/> 
             # For Running CoviCure Real-Time Chat Application-<br/> 
-                    Open the CoviCure ChatApp Folder, run npm i && npm start for both client and server Folders to Start the Development Server<br/> 
+                    Open the CoviCure ChatApp Folder, run npm i && npm start for both client and server Folders to Start the Development Server<br/>
 
+# Hospital Management
+---
+## Screenshots
+### Homepage
+![homepage snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/covi-cure-hospitalmanagement-website/blob/master/static/screenshots/homepage.png?raw=true)
+### Admin Dashboard
+![dashboard snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/covi-cure-hospitalmanagement-website/blob/master/static/screenshots/admin_dashboard.png?raw=true)
+### Invoice
+![invoice snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/covi-cure-hospitalmanagement-website/blob/master/static/screenshots/invoice.png?raw=true)
+### Doctor list
+![doctor snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/covi-cure-hospitalmanagement-website/blob/master/static/screenshots/admin_doctor.png?raw=true)
+---
+## Functions
+### Admin
+- Signup their account. Then Login (No approval Required).
+- Can register/view/approve/reject/delete doctor (approve those doctor who applied for job in their hospital).
+- Can admit/view/approve/reject/discharge patient (discharge patient when treatment is done).
+- Can Generate/Download Invoice pdf (Generate Invoice according to medicine cost, room charge, doctor charge and other charge).
+- Can view/book/approve Appointment (approve those appointments which is requested by patient).
 
+### Doctor
+- Apply for job in hospital. Then Login (Approval required by hospital admin, Then only doctor can login).
+- Can only view their patient details (symptoms, name, mobile ) assigned to that doctor by admin.
+- Can view their discharged(by admin) patient list.
+- Can view their Appointments, booked by admin.
+- Can delete their Appointment, when doctor attended their appointment.
 
+### Patient
+- Create account for admit in hospital. Then Login (Approval required by hospital admin, Then only patient can login).
+- Can view assigned doctor's details like ( specialization, mobile, address).
+- Can view their booked appointment status (pending/confirmed by admin).
+- Can book appointments.(approval required by admin)
+- Can view/download Invoice pdf (Only when that patient is discharged by admin).
 
-        
+---
 
+## HOW TO RUN THIS PROJECT
+- Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python)
+- Open Terminal and Execute Following Commands :
+```
+pip install django==3.0.5
+pip install django-widget-tweaks
+pip install xhtml2pdf
+```
+- Download This Project Zip Folder and Extract it
+- Move to project folder in Terminal. Then run following Commands :
+```
+py manage.py makemigrations
+py manage.py migrate
+py manage.py runserver
+```
+- Now enter following URL in Your Browser Installed On Your Pc
+```
+http://127.0.0.1:8000/
+```
 
+## CHANGES REQUIRED FOR CONTACT US PAGE
+- In settins.py file, You have to give your email and password
+```
+EMAIL_HOST_USER = 'youremail@gmail.com'
+EMAIL_HOST_PASSWORD = 'your email password'
+EMAIL_RECEIVING_USER = 'youremail@gmail.com'
+```
+- Login to gmail through host email id in your browser and open following link and turn it ON
+```
+https://myaccount.google.com/lesssecureapps
+```
+## Drawbacks/LoopHoles
+- Any one can be Admin. There is no Approval required for admin account. So you can disable admin signup process and use any logic like creating superuser.
+- There should be at least one doctor in hospital before admitting patient. So first add doctor.
+- On update page of doctor/patient you must have to update password.
+
+## Disclaimer
+This project is developed for demo purpose and it's not supposed to be used in real application.
