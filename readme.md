@@ -70,13 +70,13 @@ https://60df10a4c5f3c1dcbcb16a8a--covicure-chat-application.netlify.app/<br/>
 ---
 ## Screenshots
 ### Homepage
-![homepage snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/covi-cure-hospitalmanagement-website/blob/master/static/screenshots/homepage.png?raw=true)
+![Homepage Snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/blob/master/covi-cure-hospitalmanagement-website/static/screenshots/homepage.png)
 ### Admin Dashboard
-![dashboard snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/covi-cure-hospitalmanagement-website/blob/master/static/screenshots/admin_dashboard.png?raw=true)
+![Dashboard Snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/blob/master/covi-cure-hospitalmanagement-website/static/screenshots/admin_dashboard.png)
 ### Invoice
-![invoice snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/covi-cure-hospitalmanagement-website/blob/master/static/screenshots/invoice.png?raw=true)
+![Invoice Snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/blob/master/covi-cure-hospitalmanagement-website/static/screenshots/invoice.png)
 ### Doctor list
-![doctor snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/covi-cure-hospitalmanagement-website/blob/master/static/screenshots/admin_doctor.png?raw=true)
+![Doctor Snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/blob/master/covi-cure-hospitalmanagement-website/static/screenshots/admin_doctor.png)
 ---
 ## Functions
 ### Admin
