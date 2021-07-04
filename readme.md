@@ -73,9 +73,9 @@ https://60df10a4c5f3c1dcbcb16a8a--covicure-chat-application.netlify.app/<br/>
 ![Homepage Snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/blob/master/covi-cure-hospitalmanagement-website/static/screenshots/homepage.png)
 ### Admin Dashboard
 ![Dashboard Snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/blob/master/covi-cure-hospitalmanagement-website/static/screenshots/admin_dashboard.png)
-### Invoice
+### Invoice Receipt
 ![Invoice Snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/blob/master/covi-cure-hospitalmanagement-website/static/screenshots/invoice.png)
-### Doctor list
+### Doctors List
 ![Doctor Snap](https://github.com/Trijal-Bhardwaj/Amity-University-Technothon1.0/blob/master/covi-cure-hospitalmanagement-website/static/screenshots/admin_doctor.png)
 ---
 ## Functions
