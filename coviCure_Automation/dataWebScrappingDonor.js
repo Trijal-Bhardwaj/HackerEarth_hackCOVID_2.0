@@ -11,8 +11,7 @@ let tab;
   let pages = await browser.pages();
   tab = pages[0];
   await tab.goto(
-    "https://twitter.com/search?q=%23covid%20%23donor%20&src=typed_query&f=live"
-  );
+    "https://twitter.com/search?q=%23covid%20%23donor%20&src=typed_query&f=live");
   await tab.keyboard.press("End");
   await tab.waitForTimeout(2000);
   await tab.keyboard.press("End");
