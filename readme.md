@@ -10,11 +10,8 @@
 
 * Theme of the Project : HealthCare
 
-* Discord Usernames of Team Members on Technothon 1.0 Discord Server : Trijal | Participant and shivam singh |participant
-
 * Video Link of Project Working :<br/> 
-        # https://www.youtube.com/watch?v=0B-78L0imgQ<br/> 
-        # https://drive.google.com/file/d/1UN4qJoh7HvggHX8tCZWCj15I1bEnILwe/view?usp=sharing
+        # https://www.youtube.com/watch?v=s9hB2Dh1RQU<br/> 
 
 * Power Point Presentation Link Of Project Idea :<br/> 
 https://docs.google.com/presentation/d/1d3MucTDWLTPeOp9L25mnyVE_nBvDekIjZvipGuIv4ek/edit?usp=sharing 
@@ -80,30 +77,30 @@ https://60df10a4c5f3c1dcbcb16a8a--covicure-chat-application.netlify.app/<br/>
 ---
 ## Functions
 ### Admin
-- Signup their account. Then Login (No approval Required).
-- Can register/view/approve/reject/delete doctor (approve those doctor who applied for job in their hospital).
-- Can admit/view/approve/reject/discharge patient (discharge patient when treatment is done).
-- Can Generate/Download Invoice pdf (Generate Invoice according to medicine cost, room charge, doctor charge and other charge).
-- Can view/book/approve Appointment (approve those appointments which is requested by patient).
+- Can Signup with Their Account. Then Login (No Approval Required).
+- Can Register/View/Approve/Reject/Delete Doctors (Approve those Doctors who have Applied for Job in their Hospital).
+- Can Admit/View/Approve/Reject/Discharge Patients (Discharge Patients When the Treatment is Done).
+- Can Generate/Download Invoice as PDF (Generate Invoice According to the Medicine Costs, Room Charges, Doctor Charges and Other Charges).
+- Can View/Book/Approve Appointment (Approve those Appointments which are Requested By the Patients).
 
 ### Doctor
-- Apply for job in hospital. Then Login (Approval required by hospital admin, Then only doctor can login).
-- Can only view their patient details (symptoms, name, mobile ) assigned to that doctor by admin.
-- Can view their discharged(by admin) patient list.
-- Can view their Appointments, booked by admin.
-- Can delete their Appointment, when doctor attended their appointment.
+- Apply for Job in Hospital. Then Login (Approval Required by Hospital Admin, then only Doctor can Login).
+- Can Only View their Patient Details (Symptoms, Name, Mobile) Assigned to that Doctor By the Admin.
+- Can View their Discharged (By Admin) Patient List.
+- Can View their Appointment, Booked By Admin.
+- Can Delete their Appointment, When Doctor Attended their Appointment.
 
 ### Patient
-- Create account for admit in hospital. Then Login (Approval required by hospital admin, Then only patient can login).
-- Can view assigned doctor's details like ( specialization, mobile, address).
-- Can view their booked appointment status (pending/confirmed by admin).
-- Can book appointments.(approval required by admin)
-- Can view/download Invoice pdf (Only when that patient is discharged by admin).
+- Create Account for Admit in Hospital. Then Login (Approval Required by Hospital Admin, Then only Patient can Login).
+- Can View assigned doctor's details like (Specialization, Mobile, Address).
+- Can View their Booked Appointment Status (Pending/Confirmed by Admin).
+- Can book appointments.(Approval Required By Admin)
+- Can View/Download Invoice as PDF (Only When that Patient is Discharged By Admin).
 
 ---
 
 ## HOW TO RUN THIS PROJECT
-- Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python)
+- Install Python(3.7.6) (Dont Forget to Tick Add to Path while Installing Python)
 - Open Terminal and Execute Following Commands :
 ```
 pip install django==3.0.5
@@ -111,32 +108,32 @@ pip install django-widget-tweaks
 pip install xhtml2pdf
 ```
 - Download This Project Zip Folder and Extract it
-- Move to project folder in Terminal. Then run following Commands :
+- Move to Project Folder in Terminal. Then Run Following Commands :
 ```
 py manage.py makemigrations
 py manage.py migrate
 py manage.py runserver
 ```
-- Now enter following URL in Your Browser Installed On Your Pc
+- Now Enter Following URL in Your Browser Installed On Your PC
 ```
 http://127.0.0.1:8000/
 ```
 
 ## CHANGES REQUIRED FOR CONTACT US PAGE
-- In settins.py file, You have to give your email and password
+- In settings.py file, You have to Give Your Email and Password
 ```
 EMAIL_HOST_USER = 'youremail@gmail.com'
 EMAIL_HOST_PASSWORD = 'your email password'
 EMAIL_RECEIVING_USER = 'youremail@gmail.com'
 ```
-- Login to gmail through host email id in your browser and open following link and turn it ON
+- Login to Gmail through Host Email ID in Your Browser and Open Following Link and Turn It ON
 ```
 https://myaccount.google.com/lesssecureapps
 ```
 ## Drawbacks/LoopHoles
-- Any one can be Admin. There is no Approval required for admin account. So you can disable admin signup process and use any logic like creating superuser.
-- There should be at least one doctor in hospital before admitting patient. So first add doctor.
-- On update page of doctor/patient you must have to update password.
+- Any One can be Admin. There is No Approval Required for an Admin Account. So you can Disable Admin Sign Process and Use Any Logic like Creating Superser.
+- There should be At Least One Doctor in Hospital Before Admitting a Patient. So First Add Doctor.
+- On Update Page of Doctor/Patient You Must have to Update Password.
 
 ## Disclaimer
-This project is developed for demo purpose and it's not supposed to be used in real application.
+This Project is Developed for Demo Purposes and It's Not Supposed to be Used in Real Application.
