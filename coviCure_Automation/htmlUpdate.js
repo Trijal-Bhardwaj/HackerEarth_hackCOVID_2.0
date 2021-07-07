@@ -15,7 +15,7 @@ let tab;
   tab = pages[0];
   let j = 0;
   await tab.goto(
-    "file:///D:/Amity-University-Technothon1.0/coviCure_Automation/diplay.html"
+    "file:///D:\HackerEarth_hackCOVID_2.0/coviCure_Automation/diplay.html"
   );
   await tab.waitForTimeout(2000);
   let allTweetsContent = await tab.$$("#donor tr th");
