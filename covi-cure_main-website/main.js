@@ -13,9 +13,14 @@ let size3 = document.getElementsByClassName("size")[2]
     location.href = "https://60df10a4c5f3c1dcbcb16a8a--covicure-chat-application.netlify.app/";
 })
 
-let button = document.getElementsByClassName("button1")[0]
- button.addEventListener("click", ()=>{
+let button1 = document.getElementsByClassName("button1")[0]
+ button1.addEventListener("click", ()=>{
     location.href="report.html";
+})
+
+let button2 = document.getElementsByClassName("button2")[0]
+ button2.addEventListener("click", ()=>{
+    location.href="Sign-Up.html";
 })
 
 
